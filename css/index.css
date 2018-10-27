@@ -1,0 +1,505 @@
+.body-sation
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color:white;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.page-margin
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+.page-sation
+{
+    width:1438px;
+    height: 2500px;
+    
+
+}
+/* home page start */
+.grid-container
+{
+  display: grid;
+  grid-template-columns: 30% 30% ;
+  grid-template-rows: 80px 30px;
+  padding-left: 0px;
+  margin-left: 400px;
+  text-align: center;
+
+
+
+}
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 40px;
+    text-align: center;
+}
+.item1
+{
+    text-align: right;
+    
+}
+.big-title
+{
+    letter-spacing: 20px;
+    margin-top: 30px;
+}
+span
+{
+    color: brown;
+}
+.item2
+{
+    text-align: left;
+}
+
+.word-margin-left
+{
+    margin-left: 30px;
+}
+.small-title
+{
+    font-size: 15px;
+    margin-top: 0px;
+    letter-spacing: 6px;
+}
+
+.red-color
+{
+    background-color: red;
+    color: white;
+}
+.black-color
+{
+    background-color: black;
+    color: white;
+}
+#title-sation
+{
+    background-image:url(../src/Sushi.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+    height: 1200px;
+    
+}
+.sketch-word
+{
+    font-family: brush script MT ;
+    font-size: 150px;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.jp-word
+{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10px;
+}
+#title-btn
+{
+    font-size: 50px;
+    margin-left: 600px;
+    background-color:red;
+    color: white;
+    border: red;
+    margin-bottom: 40px;
+    
+}
+#title-btn:hover
+{
+    background-color: white;
+    color: black;
+}
+.background-white
+{
+    background-color: white;
+}
+.navbar-title {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(250, 245, 245);
+    top: 0;
+    font-size: 17px;
+    position: sticky;
+    width: 100%;   
+}
+.nav-home
+{
+    margin-left: 370px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(17, 16, 16);
+    text-align: center;
+    padding: 20px 35px;
+    text-decoration: none;
+    
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+    color: aliceblue;
+}
+
+.active {
+    background-color: rgb(12, 14, 12);
+    color: rgb(250, 248, 248);
+}
+.navbar-center {
+    display: inline-block;
+    float: none;
+    text-align: center;
+    
+  }
+  .clear{
+      clear: both;
+  }
+  hr{
+      margin-top: 0;
+  }
+  #about-us-word
+  {
+      color: #111;
+  }
+  .about-us-sation-smallword
+  {
+      text-align: center;
+      font-size: 25px;
+      margin-top: 5px;
+  }
+  #about-us-word-margin-bottom
+  {
+      margin-bottom: 0px;
+  }
+  /* home page end */
+  /* about page start */
+  .about-us-title
+  {
+    background-image:url(../src/room.jpeg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    height: 400px;
+    margin-top: 0;
+    padding-top: 100px;
+  }
+  #about-us-smallword
+  {
+      color: aliceblue;
+      margin-top: 0px;
+  }
+  #about-titleword
+  {
+      margin-bottom:0;
+      margin-top: 0px; 
+  }
+  
+  .grid
+  {
+    display: grid;
+    grid-gap: 0px;
+   
+    padding: 5px;
+    grid-template-columns: 20% 30% ; 
+  }
+  .about-grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: left;
+    padding-left: 250px;
+  }
+  .about-item1 {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+  }
+  .about-item2 {
+    grid-column: 3;
+    grid-row: 1 / span 2;
+
+  }
+  .about-item3 {
+    grid-column: 1 / span 2;
+    grid-row: 2;
+    font-size: 20px;
+  }
+  .about-sushiword
+  {
+      font-family: brush script MT;
+      font-size: 50px;
+  }
+  #about-sushi-pic
+  {
+      width: 550px;
+      padding-left: 50px;
+      padding-top: 30px;
+  }
+  .cooker-pic
+  {
+    margin-left: 300px;
+    margin-top: 40px;
+    border-radius: 50%;
+    border:5px solid #fff;
+    width: 800px;
+  }
+  #about-meetword
+  {
+      text-align: center;
+  }
+  .about-meet-smallword
+  {
+      font-size: 15px;
+      text-align: center;
+  }
+  #about-meet-smallword-2
+  {
+    font-size: 15px;
+    text-align: center;
+    color: gray;
+  }
+  #about-sushi3-pic
+  {
+      width: 500px;
+      margin-left: 500px;
+      margin-top: 20px;
+  }
+  .about-best-dishes-sation
+  {
+    background-image:url(../src/cook.jpeg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    height: 600px;
+    margin-top: 0;
+    padding-top: 100px;
+  }
+  #about-best-sation-title
+  {
+    text-align: center;
+    margin-top: 0px;
+    color: white;
+    font-size: 60px;
+  }
+  .best-grid
+  {
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    grid-gap: 10px;
+    
+    padding: 10px;
+  }
+  .best-grid >div
+  {
+  
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+  }
+  .best-item5
+  {
+    grid-column: 1 / span 4;
+    grid-row: 2;
+  }
+  .about-gallery-pic
+  {
+      width: 350px;
+      
+  }
+  .about-gallery-pic-1
+  {
+      width: 300px;
+      height: 240px;
+      
+  }
+  .gallert-smallword
+  {
+      color: white;
+  }
+  #gallery-btu
+  {
+    font-size: 30px;
+    margin-left: 70px;
+    background-color:red;
+    color: white;
+    border: red;
+  }
+  #gallery-btu:hover
+{
+    background-color: white;
+    color: black;
+}
+#about-tips-title
+{
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.tips-small-word
+{
+    text-align: center;
+    margin-top: 0px;
+}
+.about-tips-sation
+{
+    background-image: url(../src/sushi7.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    height: 200px;
+    margin-top: 0;
+    padding-top: 30px;
+    
+}
+.footer
+{
+    background-image: url(../src/bar.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+    height: 300px;
+}
+.footer-grid
+{
+  display: grid;
+  grid-template-columns: 20% 20% ;
+  grid-template-rows: 45px 40px;
+  padding-left: 0px;
+  text-align: center;
+  margin-top: 0px;
+  margin-left: 600px;
+  padding-top: 20px;
+}
+.footer-item
+{
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 15px;
+    text-align: center;
+}
+.footer-item1
+{
+    text-align: right;
+    
+}
+.footer-title
+{
+    letter-spacing: 10px;
+    margin-top: 30px;
+}
+.footer-item2
+{
+    text-align: left;
+}
+
+.footer-word-margin-left
+{
+    margin-left: 10px;
+}
+.footer-small-title
+{
+    font-size: 12px;
+    margin-top: 3px;
+    margin-left: 10px;
+   
+}
+.footer-red-color
+{
+    background-color: red;
+    color: white;
+}
+.footer-black-color
+{
+    background-color: black;
+    color: white;
+}
+.footer-link
+{
+    text-decoration: none;
+    margin-left: 230px;
+    color: white;
+   
+}
+.footer-link:hover{
+    text-decoration:underline;
+}
+.footer-bar{
+    float: left;
+}
+.footer-contact
+{
+    color: #fff;
+    text-align: center;
+    margin-right: 200px;
+}
+.footer-location
+{
+    margin-top: 0px;
+}
+.footer-add
+{
+    margin-bottom: 0px;
+}
+i
+{
+    margin-left: 320px;
+}
+i:hover{
+    width: 20px;
+	height: 20px;
+	line-height: 20px;
+	background-color: #fff;
+	border-radius: 20px;	
+}
+.policy-sation
+{
+    background-color: black;
+    height: 40px;
+    
+
+}
+.copy
+{
+    margin: 0;
+    color: white;
+    margin-left: 100px;
+    
+}
+.copy-left
+{
+    float: left;
+
+}
+.policy
+{
+   
+    color: red;
+    margin-top: 0px;
+    text-align: right;
+    margin-right: 100px;
+}
+  /* about page end */
+  /* menu page start */
+  
+  /* menu page end */
+  /* gallery page start */
+  /* gallery page end */
+  /* contact page start */
+  /* contact page end */
+  
