@@ -17,8 +17,11 @@
 {
     width:1438px;
     height: 2500px;
-    
-
+}
+.contact-page-sation
+{
+    width: 1438;
+    height: 2000px;
 }
 /* home page start */
 .grid-container
@@ -29,9 +32,6 @@
   padding-left: 0px;
   margin-left: 400px;
   text-align: center;
-
-
-
 }
 .grid-item {
     background-color: rgba(255, 255, 255, 0.8);
@@ -122,6 +122,17 @@ span
 {
     background-color: white;
 }
+.home-navbar
+{
+    list-style-type: none;
+    padding-left: 370px;
+    overflow: hidden;
+    background-color: rgb(247, 238, 238);
+    position: -webkit-sticky; /* Safari */
+    position:sticky;
+    top: 0;
+    margin: 0; 
+}
 .navbar-title {
     list-style-type: none;
     margin: 0;
@@ -130,8 +141,9 @@ span
     background-color: rgb(250, 245, 245);
     top: 0;
     font-size: 17px;
-    position: sticky;
-    width: 100%;   
+    position: fixed;
+    width: 100%; 
+     
 }
 .nav-home
 {
@@ -496,10 +508,70 @@ i:hover{
 }
   /* about page end */
   /* menu page start */
-  
   /* menu page end */
   /* gallery page start */
   /* gallery page end */
   /* contact page start */
+.contactus-sation
+{
+    background-image: url(../src/sushiroom.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+    height: 600px;
+}
+#contact-bigword
+{
+    padding-top: 140px;
+}
+#contact-us-smallword
+{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+#contact-add-sation-bigword
+{
+    font-family: brush script MT ;
+    font-size: 50px;
+    color: black;
+    margin-left: 300px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.contact-add-sation
+{
+    float: left;
+}
+.contact-add-smallword
+{
+    font-size: 20px;
+    text-align: center;
+    margin-left: 150px;
+    margin-top: 20px;
+    color: gray;
+}
+.contact-number
+{
+    text-align: center;
+    color: rgba(0.5, 0.5, 0.5,0.06);
+    font-size: 90px;
+    margin-left: 150px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#contact-add-pic
+{
+    width: 600px;
+    margin-left: 230px;
+    margin-top: 100px;
+}
+#map {
+    height: 18%;
+    width: 100%;
+    margin-top: 40px;
+  }
+
   /* contact page end */
   
