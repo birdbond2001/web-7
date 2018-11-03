@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>contact us</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/index.css" />
+    
+    
+</head>
+<body class="body-sation">
+        <div class="page-margin contact-page-sation">
+            <div class="navbar-collapse-center">
+                <ul class=" navbar-center navbar-title">
+                    <li><a href="index.html" class="nav-home">Home</a></li>
+                    <li><a  href="about.html">ABOUT</a></li>
+                    <li><a href="menu.html">MENU</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a class="active"href="contact.html">CONTACT US</a></li>
+                </ul>
+              </div> 
+        <div class="clear"></div>      
+         <div class="contactus-sation">
+             
+             <p class="sketch-word" id="contact-bigword">Contact Us</p>
+             <p id="contact-us-smallword">FROM DATE NIGHT TO OFFICE PARTIES, WE WELCOME ALL!</p>
+
+         </div>  
+         <div class="contact-add-sation">
+             <p id="contact-add-sation-bigword">Contact Us</p>
+             <p class="contact-add-smallword">4901 Yonge Street, Toronto</p>
+             <p class="contact-add-smallword">(Yonge/Sheppard)</p>
+             <p class="contact-number"><b>01</b></p>
+             <p class="contact-add-smallword">Catering & Take Out / Reservation & Private Event</p>
+             <p class="contact-number"><b>02</b></p>
+             <p class="contact-add-smallword">416-224-0741</p>
+             <p class="contact-add-smallword">OPENING HOURS</p>
+             <p class="contact-add-smallword"><span>Mon-Thur</span> 11:30am - 12:00am</p>
+             <p class="contact-add-smallword"><span>Fri</span> 11:30am - 2:00am</p>
+             <p class="contact-add-smallword"><span>Sat</span> 1pm - 2:00am</p>
+             <p class="contact-add-smallword"><span>Sun</span> 1pm - 12:00am</p>
+         </div> 
+         <div>
+             <img src="src/food.png" alt="img" id="contact-add-pic">
+         </div>
+         <div id="map"></div>
+            <script>
+            function initMap() {
+            var myLatLng = {lat:43.764022, lng:-79.411260};
+
+            var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 19,
+            center: myLatLng
+             });
+
+            var marker = new google.maps.Marker({
+            position: myLatLng,
+            map: map,
+            
+            });
+            }
+            </script>
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDYMMop4CqjtV7d5nB9OnQANJN7OaeGx3s&callback=initMap"
+            async defer></script>
+       
+        <div class="footer contact-footer-sation">
+                <div class="footer-grid">
+                        <div class="footer-item footer-item1 footer-red-color">
+                            <p class="footer-title"  >sushi</p>
+                        </div>
+                        <div class="footer-item footer-item2 footer-black-color">
+                            <p class="footer-title footer-word-margin-left">M<span>O</span>T<span>O</span></p>
+        
+                        </div>
+                        <div class="footer-red-color footer-item3"></div>  
+                        <div class=" footer-item2 footer-black-color">
+                            <p class="footer-small-title footer-word-margin-left">saka & wine bar</p>
+                        </div>
+                </div>
+                    <div class="footer-bar">
+                        <a href="index.html" class="footer-link">HOME</a> <br><br>
+                        <a href="about.html"class="footer-link">ABOUT</a> <br><br>
+                        <a href="menu.html"class="footer-link">MENU</a> <br><br>
+                        <a href="gallery.html"class="footer-link">GALLERY</a><br><br>
+                        <a href="contact.html"class="footer-link">CONTACT US</a>  
+                        
+                    </div>
+                    <div class="footer-contact ">
+                        <p>CONTACT US</p>
+                        <p>(416) 224-0741</p>
+                        <p class="footer-add">4901 Yonge Street, Toronto</p>
+                        <p class="footer-location">(Yonge/Sheppard)</p>
+                        <p>FOLLOW US</p>
+                        <a href="facebook.com"> <i class="fa fa-facebook"></i></a>
+                   
+                    </div>
+            <div class="policy-sation">
+                <div class="copy-left">
+                    <p class="copy">All rights reserved. Copyright © 2017.</p>
+                </div>
+                    <p class="policy">Privacy Policy</p>
+            </div>
+       </div>     
+    </div>
+</body>
+</html>
