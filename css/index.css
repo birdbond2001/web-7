@@ -312,7 +312,6 @@ li a:hover:not(.active) {
     display: grid;
     grid-template-columns: auto auto auto auto ;
     grid-gap: 10px;
-    
     padding: 10px;
   }
   .best-grid >div
@@ -510,6 +509,56 @@ i:hover{
   /* menu page start */
   /* menu page end */
   /* gallery page start */
+  .gallery-sation
+{
+    background-image: url(../src/uni.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+    height: 500px;
+}
+.gallery-pictur-sation
+{
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    background-image: url(../src/background.jpg)no-repeat;
+    background-size:cover;
+    background-size: 500px;
+    background-position: center top;
+}
+.gallery-grid-sation {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    grid-gap: 10px;
+  }
+  .gallery-grid-sation >div
+  {
+
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+  }
+  .gallery-item {
+    background-color: rgba(255, 255, 255, 0.1);
+   
+    font-size: 30px;
+    text-align: center;
+  }
+  .gallery-pic
+  {
+      width: 300px; 
+      height: 200px;
+  }
+  .gallery-footer-sation
+  {
+      margin-top: 10px;
+  }
+  
+  
   /* gallery page end */
   /* contact page start */
 .contactus-sation
