@@ -111,14 +111,12 @@ span
     color: white;
     border: red;
     margin-bottom: 40px;
-    border-radius: 10px;
-    
+    border-radius: 10px;   
 }
 #title-btn:hover
 {
     background-color: white;
-    color: black;
-   
+    color: black;  
 }
 .background-white
 {
@@ -130,7 +128,7 @@ span
     padding-left: 370px;
     overflow: hidden;
     background-color: rgb(247, 238, 238);
-    position: -webkit-sticky; /* Safari */
+    position: -webkit-sticky; 
     position:sticky;
     top: 0;
     margin: 0; 
@@ -293,8 +291,196 @@ li a:hover:not(.active) {
     background-color: white;
     color: #111;
 }
-
+.home-team-sation
+{
+    background-image:url(../src/jp2.jpeg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center top;
+    height: 900px;
+    
+}
+.team-title-word
+{
+  margin-top: 0px;  
+}
+.team-grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 5px;
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+  .team-item {
+    
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .team-manager
+  {
+    width: 190px;
+    height: 180px;
+    border-radius:50%;
+    padding-bottom: 20px;
+    overflow:hidden;
+    text-align: center;
+  }
+  .team-big-word
+  {
+      font-size: 20px;
+      text-align: center;
+      font-weight: bold;
+      color: white;
+  }
+  .team-small-word
+  {
+      font-size: 15px;
+      text-align: center;
+      color: #fff;
+  }
+  #home-btn-4
+  {
+      width: 200px;
+      height: 50px;
+      border-radius: 10px;
+      margin-left: 580px;
+      margin-top: 20px;
+      background-color: red;
+      color: white;
+      border: red;
+  }
+  #home-btn-4:hover
+  {
+      background-color: white;
+      color: #111;
+  }
+  #paple-sation-pic
+{
+    width: 1200px;
+    margin-left: 100px; 
+}
+#people-sation-title
+{
+    font-family: brush script MT ;
+    font-size: 100px;
+    color: rgb(15, 14, 14);
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.people-grid
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 5px;
+    
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.people-item {
   
+    padding: 20px;
+    font-size: 15px;
+    text-align: center;
+  }
+.people{
+  width: 100px;
+  height: 100px;
+  border-radius:50%;
+  padding-bottom: 20px;
+  overflow:hidden;
+  text-align: center;
+}
+.talk-sation-word
+{
+    text-align: center;
+    color: gray;
+    float: left;
+    margin-left: 200px;
+
+}
+.talk-sation
+{
+    margin-top: 50px;
+    font-size: 15px;
+}
+#people-star-pic{
+    width: 750px;
+    margin-left: 400px;
+    margin-top: 50px;
+}
+#home-btn-5
+{
+      width: 200px;
+      height: 50px;
+      border-radius: 10px;
+      margin-left: 580px;
+      margin-top: 20px;
+      background-color: rgb(252, 232, 232);
+      color: rgb(10, 8, 8);
+      border:1px solid red;
+  }
+  #home-btn-5:hover
+  {
+      background-color: rgb(211, 12, 12);
+      color: rgb(245, 238, 238);
+  }
+.signature-sation-title
+{
+    margin-top: 0px;
+    color: #fff;
+}
+.signature-sation-pic
+{
+    background-image: url(../src/blackbar.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+    height: 1000px;
+}
+.home-sushi-title
+{
+    font-family: brush script MT ;
+    font-size: 80px;
+    color: rgb(240, 234, 234);
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.home-sushi-big-word
+{
+    font-size: 20px;
+    text-align: left;
+    color: white;
+}
+.home-sushi-small-word
+{
+    font-size: 15px;
+    text-align: left;
+    color: white;
+}
+.menu-item8
+{
+    grid-row: 3/4;
+}
+.menu-item10
+{
+    grid-row: 5/6;
+    grid-column: 2/3;
+}
+.menu-item14
+{
+    grid-row: 3/4;
+    grid-column: 4/5;
+}
+.menu-item16
+{
+    grid-row: 5/6;
+    grid-column: 4/5;
+}
+
   /* home page end */
   /* about page start */
   .about-us-title
@@ -484,6 +670,7 @@ li a:hover:not(.active) {
     background-attachment: fixed;
     background-position: center top;
     height: 300px;
+    
 }
 .footer-grid
 {
@@ -631,7 +818,7 @@ i:hover{
     margin-left: 150px;
   }
   .menu-grid-1> div {
-    background-color: rgba(255, 255, 255, 0.8);
+    
     text-align:center;
     padding: 5px 0;
     font-size: 30px;
@@ -722,7 +909,7 @@ i:hover{
     background-repeat:no-repeat;
     background-attachment: fixed;
     background-position: center top;
-    height: 500px;
+    height: 1100px;
 }
 .gallery-pictur-sation
 {
@@ -750,9 +937,13 @@ i:hover{
   }
   .gallery-item {
     background-color: rgba(255, 255, 255, 0.1);
-   
     font-size: 30px;
     text-align: center;
+  }
+  .gallery-pic:hover{
+    opacity: 0.3; 
+    color: rgb(51, 45, 45); 
+     
   }
   .gallery-pic
   {
