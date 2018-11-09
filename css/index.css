@@ -111,12 +111,14 @@ span
     color: white;
     border: red;
     margin-bottom: 40px;
+    border-radius: 10px;
     
 }
 #title-btn:hover
 {
     background-color: white;
     color: black;
+   
 }
 .background-white
 {
@@ -348,6 +350,7 @@ li a:hover:not(.active) {
     background-color:red;
     color: white;
     border: red;
+   
   }
   #gallery-btu:hover
 {
@@ -507,6 +510,114 @@ i:hover{
 }
   /* about page end */
   /* menu page start */
+  .menu-sation
+{
+    background-image: url(../src/jp.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+    height: 500px;
+}
+.menu-title
+{
+    font-family: brush script MT;
+    font-size: 60px;
+    color: rgb(10, 9, 9);
+    text-align: center;
+}
+.menu-grid-1 {
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    grid-gap: 10px;
+
+    padding: 10px;
+    margin-right: 150px;
+    margin-left: 150px;
+  }
+  .menu-grid-1> div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align:center;
+    padding: 5px 0;
+    font-size: 30px;
+  }
+  .menu-item1 {
+    grid-row: 1 / span 2;
+  }
+  .menu-item3 {
+    grid-column: 3/4;
+    grid-row: 1 / span 2;
+  }
+  .menu-item7 {
+   
+    grid-row: 3 /5;
+  }
+  .menu-item9{
+      grid-column: 3/4;
+      grid-row: 3 / 5;
+  }
+  .menu-item13{
+    grid-row: 5/7;
+  }
+  .menu-item15{
+    grid-column: 3/4;
+    grid-row: 5 /7;
+}
+.sushi-circular-pic
+{
+    width: 200px;
+    height: 120px;
+    border-radius:50%;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.menu-big-word
+{
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: left;
+}
+.menu-small-word
+{
+    font-size: 13px;
+    color: gray;
+    text-align: left;
+}
+.menu-price-number
+{
+    font-size: 20px;
+    color: red;
+    text-align: left;
+    font-weight:bold;
+}
+.menu-footer-word
+{
+    text-align: center;
+    font-size: 12px;
+    color: gray;
+    
+}
+.footer-word-setion
+{
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+#menu-btn-sation
+{
+    width: 350px;
+    height: 40px;
+    text-align: center;
+    margin-left:600px;
+    margin-top: 10px;
+    color:white;
+    background-color: red;
+    border-radius: 10px;  
+}
+#menu-btn-sation:hover{
+    background: #fff;
+    color: black;
+}
+
   /* menu page end */
   /* gallery page start */
   .gallery-sation
@@ -556,6 +667,7 @@ i:hover{
   .gallery-footer-sation
   {
       margin-top: 10px;
+
   }
   
   
