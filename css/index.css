@@ -1044,7 +1044,7 @@ i:hover{
 }
 #contact-add-pic
 {
-    width: 600px;
+    max-width: 450px;
     margin-left: 230px;
     margin-top: 100px;
 }
@@ -1140,7 +1140,7 @@ i:hover{
       margin-left: 450px;
   }
 }
-@media (max-width: 850px)
+@media (max-width: 900px)
 {
     .page-sation
     {
@@ -1165,7 +1165,7 @@ i:hover{
     .cooker-pic
     {
         max-width: 100%;
-        margin-left: 20px;
+        margin-left: 10px;
     }
     #about-sushi3-pic
   {
